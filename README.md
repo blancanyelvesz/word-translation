@@ -7,7 +7,7 @@ __      _____  _ __ __| | | |_ _ __ __ _ _ __  ___| | __ _| |_(_) ___  _ __
 -->                                                                  
 
 # Word translation using PLSR 
-This project is based on the supervised learning tutorial by Aurelie Herbelot available at [her original GitHub repository](https://github.com/ml-for-nlp/word-translation).
+This project is based on the supervised learning tutorial by Aurelie Herbelot available in [her original GitHub repository](https://github.com/ml-for-nlp/word-translation).
 
 ## Dependencies
 The only requirements are docopt and scikit-learn, which are included in ``requirements.txt``.
