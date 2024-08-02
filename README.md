@@ -1,4 +1,4 @@
-<--
+<!--
                        _   _                       _       _   _             
 __      _____  _ __ __| | | |_ _ __ __ _ _ __  ___| | __ _| |_(_) ___  _ __  
 \ \ /\ / / _ \| '__/ _  | | __| '__/ _` | '_ \/ __| |/ _` | __| |/ _ \| '_ \ 
@@ -6,7 +6,7 @@ __      _____  _ __ __| | | |_ _ __ __ _ _ __  ___| | __ _| |_(_) ___  _ __
   \_/\_/ \___/|_|  \__,_|  \__|_|  \__,_|_| |_|___/_|\__,_|\__|_|\___/|_| |_|
 -->                                                                  
 
-# Word translation using PLSR
+# Word translation using PLSR 
 This project is based on the supervised learning tutorial by Aurelie Herbelot available at https://github.com/ml-for-nlp/word-translation.
 
 ## Dependencies
