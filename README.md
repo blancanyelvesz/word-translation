@@ -7,7 +7,7 @@ __      _____  _ __ __| | | |_ _ __ __ _ _ __  ___| | __ _| |_(_) ___  _ __
 -->                                                                  
 
 # Word translation using PLSR 
-This project is based on the supervised learning tutorial by Aurelie Herbelot available at https://github.com/ml-for-nlp/word-translation.
+This project is based on the supervised learning tutorial by Aurelie Herbelot available at [her original GitHub repository](https://github.com/ml-for-nlp/word-translation).
 
 ## Dependencies
 The only requirements are docopt and scikit-learn, which are included in ``requirements.txt``.
@@ -40,7 +40,7 @@ Precision PLSR: 0.3125
 All data can be found in the data folder. This includes three semantic spaces and three lists of pairs. 
 - The three semantic spaces files were provided in the original tutorial by Herbelot, as well as the English-Catalan pairs list. 
 - The Catalan-Italian pairs list was handmade by me using the aforementioned semantic spaces.
-- The English-Italian pairs list was provided by my colleague Sam, and it is available at https://github.com/samueleantonelli/PLSR-words-translation.
+- The English-Italian pairs list was provided by my colleague Sam, and it is available in [his repository](https://github.com/samueleantonelli/PLSR-words-translation).
 
 ## About the automatic mode and results
 The main difference between this project and the original tutorial is the implementation of an automatic mode. When [-a | --auto] is activated, the program will perform an hyperparameter search, meaning that the user does not need to input any value for --ncomps or --nns, as they model will try out a list of possible values and return all results in the form of a table. The results table will be printed in the terminal, but also stored as a .csv file so it can be easily manipulated afterwards. The results folder in this repository includes these three .csv files and an excel file containing the same three tables for an easier visualisation. 
