@@ -25,7 +25,8 @@ where
 - [-h | --help] shows the help screen.
 - --version show the version of the code.
 - [-v | --verbose] shows verbose output, i.e. it prints the gold standard and the list of k nearest neighbours. It will not work in automatic mode, as it implies too much printing.
-for example, to run the program for Catalan-Italian word translation using 15 principal components and 5 nearest neighbours and checking the verbose answer, we would write
+
+For example, to run the program for Catalan-Italian word translation using 15 principal components and 5 nearest neighbours and checking the verbose answer, we would write
 ```
 python3 -W ignore plsr_regression.py --lang CATITA --ncomps 15 --nns 5 -v
 ```
