@@ -15,7 +15,7 @@ The only requirements are docopt and scikit-learn, which are included in ``requi
 ## Arguments
 The main file ``plsr_regression.py`` can take different arguments when called from the terminal.
 ```
-python3 -W ignore plsr_regression.py --lang LANGUAGES ((-a | --auto) | --ncomps N –nns N) [-v | --verbose]
+python3 -W ignore plsr_regression.py --lang LANGUAGES ((-a | --auto) | --ncomps N –nns N [-v | --verbose])
 ```
 where
 - --langs (ENGCAT | CATITA | ENGITA) needs to be one of the three possible pairs of languages to translate between.
